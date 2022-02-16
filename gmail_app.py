@@ -76,7 +76,7 @@ class container:
                                     bg="#000", fg="#00ff00")
             self.sender_lbl.place(x=20, y=20)
 
-            self.password = Entry(self.canvas, font="InkFree 20", bg="gray")
+            self.password = Entry(self.canvas, font="InkFree 20", bg="gray", show="*", fg="cyan")
             self.password.place(y=75, x=180, width=500)
 
             self.button1 = Button(self.canvas, text="Send", command=self.confirm, font="Ebrima 30 bold")
